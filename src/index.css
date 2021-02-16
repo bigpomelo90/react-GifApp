@@ -1,0 +1,76 @@
+* {
+  background-color: black;
+  font-family: 'Anton', sans-serif;
+  user-select: none;
+}
+
+h1{
+  color: aliceblue;
+  font-size: clamp(1.2rem,calc(1rem + 3.5vw),4rem);
+  text-align: center;
+}
+h3{
+  color: aliceblue;
+  text-align: center;
+  font-size: 2em;
+  margin-left: -40px;
+}
+
+body{
+  padding: 40px;
+}
+
+button{
+  font-size: 1.1rem;
+  margin-right: 5px;
+  padding: 5px;
+  background: white;
+  color: aliceblue;
+}
+
+input[type=text] {
+  margin: 1.5rem auto;
+  display: block;
+  align-content: center;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  background-image: url('img/32px-Search_Icon.svg.png');
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 18px 10px 10px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 40%;
+}
+.card-grid{
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  text-align: center;
+  align-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.card p{
+  border: 1px solid aliceblue;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+  border: 3px solid aliceblue;
+  border-radius: 6px;
+}
